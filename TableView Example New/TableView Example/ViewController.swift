@@ -60,7 +60,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         //self.tableView.reloadData() //instead of reloading, we can add it to tableview with this
         
         //First we need an indexPath before adding anything to a tableView
-        //We don't have any but we know we will add our row at top of tableView.
+        //We don't have indexPath but we know we will add our row at top of tableView.
         let indexPath = IndexPath(row: 0, section: 0)
         //Row and section both 0 because, for row we need to add top of tableView this means index 0 and for section we have only one section so leave it 0.
         
