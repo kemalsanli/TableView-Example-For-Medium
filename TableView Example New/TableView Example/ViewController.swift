@@ -5,6 +5,7 @@
 //  Created by Kemal Sanlı on 4.12.2021.
 //
 //  Medium @kemalsans - medium.com/@kemalsans
+// https://medium.com/@kemalsans/you-can-easily-animate-table-views-with-this-one-weird-trick-66e36ce39c5
 //
 
 import UIKit
@@ -55,7 +56,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     //Add row button
     
     @IBAction func addRowButtonClicked(_ sender: Any) {
-        contentArray.insert("New Row", at: 0) //We added a new row at 0 because we wanted to see row at top of tableview.
+        contentArray.insert("New Row", at: 0) //We added a new item at 0 because we wanted to see row at top of tableview.
         //self.tableView.reloadData() //instead of reloading, we can add it to tableview with this
         
         //First we need an indexPath before adding anything to a tableView
